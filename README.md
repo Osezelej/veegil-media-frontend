@@ -1,7 +1,9 @@
-
 <h1>
-  Osezele Joseph Anubahimendo
+  Osezele Joseph Anubahimendo 
+  
 </h1>
+<h4>Email: 2osezelejoseph@gmail.com.</h4>
+<h4>Phone(whatsapp): 08076320300</h4>
 <p>
 I am a full stack developer with experience in building real world application.with advance skils in python, mongodb, postgreSQl, flask, fastApi, Nodejs, express, fastify, Nestjs, GraphQl, flutter, dart, react, react-Native, html, css.
 having me with you will be of great value both to the company and me.
@@ -9,10 +11,10 @@ hope I was able to impress you.
 
 </p>
 <p>
-  Enjoy reading
+  Enjoy reading!
 </p>
 
- <p><a href="https://cpcy2j-4000.csb.app/graphql">https://cpcy2j-4000.csb.app/graphql</a> click on the link to access the graphql playground </p>
+ <p><a href="https://cdv7dp-3000.csb.app">https://cdv7dp-3000.csb.app</a> click on the link to see the front end of Veegil bank app. (Note: this app is a mobile & tablet first oriented design to get the best user experience. inspect the design on chrome or any browser of your choice or mobile device) </p>
  
 
 <h1>Veegil media Demo Bank App by osezele joseph</h1>
