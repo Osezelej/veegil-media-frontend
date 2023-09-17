@@ -1,0 +1,133 @@
+.navigation-header{
+    height: 12%;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin: 0px 10px;
+    position: fixed;
+    z-index: 1;
+}
+h4{
+    font-size: 18px;
+    color: #06060a;
+
+}
+.hamburger-menu{
+    width:50px;
+    padding-left: 10px;
+    padding: 10px;
+}
+
+.user-icon{
+    width:70px;
+    padding-right: 10px;
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: flex-end;
+}
+.username{
+    margin: 0;
+    margin-right: 5px;
+    font-size: 13px;
+}
+.bal-display-container{
+    z-index: 1;
+    height: 27%;
+    margin-top: 60px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.currBal{
+    margin: 0;
+    color: #bbbbc4;
+    font-weight: 400;
+    font-size: 16px;
+}
+.bal-display-container h2{
+    margin: 0;
+}
+.transaction-container{
+    width: 100%;
+
+}
+.transaction-container h3{
+    color: #06060a;
+    font-size: 18px;
+    font-weight: 700;
+    margin-left: 12px;
+    margin-bottom: 0;
+
+    
+}
+.transaction-container{
+    z-index: 1;
+    overflow: scroll;
+    
+}
+.list-items{
+    margin-left: 10px;
+    margin-right: 10px;
+    display: flex;
+    flex-direction: column;
+}
+.tx-body{
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    border-radius: 15px;
+}
+.tx-body p{
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+.tx-body div{
+    margin-right: 10px;
+}
+.type{
+    font-size: 14px;
+}
+.amount{
+    font-size: 18px;
+    font-weight: bold;
+}
+.date{
+    font-size: 14px;
+}
+.type-amount-date{
+    margin-left: 10px;
+}
+.credit{
+    color: #585862;
+}
+
+.debit{
+    color:#6f6f72
+}
+
+.hamburger-menu:active{
+    background-color: #cccccc9a;
+    border-radius: 10px;
+}
+
+.user-icon:active{
+    background-color: #cccccc9a;
+    border-radius: 10px;
+}
+
+.drawer-item{
+    background-color: white;
+    width: 80%;
+}
+a{
+    text-decoration: none;
+    color: #06060a;
+    width: inherit;
+}

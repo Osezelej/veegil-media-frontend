@@ -1,0 +1,1 @@
+export const API_URL ='https://cpcy2j-4000.csb.app/graphql';

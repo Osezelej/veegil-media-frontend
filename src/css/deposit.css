@@ -1,0 +1,75 @@
+
+.deposit-container{
+    z-index: 2;
+    height: 32%;
+    width: 95%;
+    background-color: #06060a;
+    margin-top: 100px;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.bank-title{
+    margin-top: 5px;
+    color: #3a3a45;
+    margin-bottom: 2px;
+    font-size: 14px;
+}
+.bank-name {
+    margin-top: 0px;
+    color: #e4e2f2;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+.bank-name-container{
+    margin-left: 10px;
+}
+
+.input-container{
+    margin-top: 10px;
+    width: 89.5vw;
+}
+.input-container input{
+    padding: 5px;
+    margin: 10px 0;
+}
+.button-container {
+    margin-left: 0;
+}
+.button-container button{
+    margin-left: 0px;
+    width: inherit;
+    height: 50px;
+}
+.grid-size{
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: larger;
+    font-weight: bold;
+    border-radius: 5px;
+}
+.grid-size:active{
+    background-color: #06060a;
+    color: #e4e2f2;
+}
+
+.grid-check{
+    height: 15px;
+    margin-left: 5px;
+    width: 15px;
+    border-radius: 10px;
+    border-width: 3px;
+    border-color:#3a3a45;
+    background-color: #06060a;
+}
+.input-container select{
+    padding: 5px;
+    margin: 10px 0;
+}
+.input-container option{
+    padding: 5px;
+    margin: 10px 0;
+}

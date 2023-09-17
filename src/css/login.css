@@ -1,0 +1,137 @@
+*{
+    
+    transition-duration: 0.4s;
+    margin: 0;
+    padding: 0;
+
+}
+#root{
+    width: inherit;
+    height: inherit;
+}
+body{
+    width: 100vw;
+    background-color: #f4f2ff;
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    
+}
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+    width: inherit;
+    transition-duration: 0.4s;
+
+}
+.login{
+    background: #f4f2ff;
+    width: inherit;
+}
+h1 {
+    color: #06060a;
+    
+}
+h3{
+    color: #7b7b85;
+}
+.form-container{
+    display: flex;
+    flex-direction: column;
+    height: 50%;
+    align-items: center;
+    width: 100%;
+    padding: 20px 20px;
+}
+.input-container{
+    display: flex;
+    flex-direction: column;
+    width:100%;
+
+}
+.button-container{
+    display: flex;
+    flex-direction: column;
+    width: 89.5vw;
+    margin-left: 10px;
+}
+.button-container button{
+    height: 50px;
+    font-size: 16px;
+    font-weight: bold;
+    margin-top: 10px;
+    width: inherit;
+    margin-left: 10px;
+    color: #e4e2f2;
+    background-color: #06060a;
+    border-style: none;
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 10px;
+
+}
+.input-container input{
+    height: 40px;
+    margin: 10px ;
+    border-width: 1.7px;
+    border-color: #3a3a45;
+    background-color: #e4e2f2;
+    border-style: solid;
+    border-radius: 10px;
+    font-size: 16px;
+    padding: 5px;
+}
+.input-container select{
+    height: 52px;
+    margin: 10px ;
+    border-width: 1.7px;
+    border-color: #3a3a45;
+    background-color: #e4e2f2;
+    border-style: solid;
+    border-radius: 10px;
+    font-size: 16px;
+}
+.input-container option{
+    margin: 10px ;
+    border-width: 1.7px;
+    border-color: #3a3a45;
+    background-color: #e4e2f2;
+    border-style: solid;
+    border-radius: 10px;
+    font-size: 16px;
+    padding: 5px;
+}
+
+.input-container option:focus{
+    background-color: #06060a;
+    color: #e4e2f2;
+}
+
+.actual-login{
+    margin-top: 60px;
+}
+.signup-success{
+    background-color: #e4e2f2;
+    border-radius: 10px;
+    color:#06060a;
+    font-size: 16px;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    padding: 15px;
+
+
+}
+.signup-success p{
+    margin-left: 10px;
+}
+.madeby {
+    position: relative;
+    top: 100px;
+    left: 20px;
+    color: #3a3a45;
+}
