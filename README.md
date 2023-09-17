@@ -34,12 +34,10 @@ This is a minimalist bank app design created with <b>react</b> and <b>react-redu
   </li>
 </ul>
 
+
 <h1>
-  GRAPHQL SCHEMA QUERY AND MUTATION
-<h1>
-<h2>
 <a href="./src/store/store.js">
   Global Store (react-redux)
 </a>
-<h2>
+<h1>
 <p>This app-state management section. it was used to store state data (e.g user details) that will be used in multiple pages throughout the entire app. redux-toolkit was used  for the implementation.</p>
